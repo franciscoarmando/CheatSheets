@@ -1,0 +1,28 @@
+Mvc Cheat Sheet
+
+cors 
+1 
+ng
+Install-Package Microsoft.AspNet.WebApi.Cors 
+2
+using System.Web.Http;
+namespace WebService
+{
+    public static class WebApiConfig
+    {
+        public static void Register(HttpConfiguration config)
+        {
+            // New code
+                        //CORS            EnableCorsAttribute cors = new EnableCorsAttribute("*", "*", "*");            config.EnableCors(cors);
+3
+using System.Net.Http;
+using System.Web.Http;
+using System.Web.Http.Cors;
+
+namespace WebService.Controllers
+{
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
+    public class TestController : ApiController
+	
+	
+

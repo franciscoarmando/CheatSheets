@@ -13,7 +13,7 @@ ng new <name> [options]
 })
 
 ```
-----------Bootstrap------------------
+----------Bootstrapo --------------
 
 ```
 $npm install bootstrap --save

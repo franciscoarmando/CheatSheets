@@ -1,6 +1,0 @@
-mvc 
-
-1.- Visual Studio
-2 .- net Framework 
-3 api 2 ef
-
